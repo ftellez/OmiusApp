@@ -34,6 +34,8 @@ import java.util.Set;
 import java.util.UUID;
 
 public class ControlView extends AppCompatActivity {
+    GraphView graph;
+
     private BluetoothAdapter mBtAdapter;
     private BluetoothSocket btSocket;
     private BluetoothServerSocket btSocketServer;
@@ -43,6 +45,20 @@ public class ControlView extends AppCompatActivity {
     // UUID service - This is the type of Bluetooth device that the BT module is
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     Handler bluetoothIn;
+    private StringBuilder recDataString = new StringBuilder();
+
+    String coord1 = null;
+    String coord2 = null;
+
+    String eraseSub;
+    int lineEnding;
+
+    DataPoint[] dataBattery = new DataPoint[]{new DataPoint(0, 0)};
+    LineGraphSeries<DataPoint> series = new LineGraphSeries<>(dataBattery);
+
+    int graphPoints = 0;
+
+    public ArrayList<Double> Points = new ArrayList<Double>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,15 +66,89 @@ public class ControlView extends AppCompatActivity {
         setContentView(R.layout.activity_control_view);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        GraphView graph = (GraphView) findViewById(R.id.graph);
-        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[]{
-                new DataPoint(0, 1),
-                new DataPoint(1, 5),
-                new DataPoint(2, 3),
-                new DataPoint(3, 2),
-                new DataPoint(4, 6)
-        });
+        graph = (GraphView) findViewById(R.id.graph);
+        mBtAdapter = BluetoothAdapter.getDefaultAdapter();
+
         graph.addSeries(series);
+
+        bluetoothIn = new Handler() {
+            public void handleMessage(android.os.Message msg) {
+                if (msg.what == handlerState) {                                     //if message is what we want
+                    String readMessage = (String) msg.obj;                                                                // msg.arg1 = bytes from connect thread
+                    recDataString.append(readMessage);                                      //keep appending to string until ~
+                    lineEnding = recDataString.indexOf("\r\n");
+                    if (lineEnding > 0)
+                        recDataString.replace(lineEnding,lineEnding+4,"");
+                    int endOfLineIndex = recDataString.indexOf(",");                    // determine the end-of-line
+                    if (coord1 == null) {
+                        if (endOfLineIndex > 0) {                                           // make sure there data before ~
+                            //String dataInPrint = recDataString.substring(0, endOfLineIndex);    // extract string
+                            //int dataLength = dataInPrint.length();                          //get length of data received
+
+                            String chk = recDataString.substring(0, endOfLineIndex);
+
+                            if (chk.equals("0")) {
+//                                Toast.makeText(getBaseContext(),chk,Toast.LENGTH_SHORT).show();
+                                eraseSub = recDataString.substring(0, endOfLineIndex + 1);
+                                int i = recDataString.indexOf(eraseSub);
+                                if (i != -1) {
+                                    try {
+                                        recDataString.delete(i, eraseSub.length());                    //clear all string data
+                                    } catch (StringIndexOutOfBoundsException ex) {
+                                        Toast.makeText(getBaseContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            } else {
+//                                Toast.makeText(getBaseContext(),chk,Toast.LENGTH_SHORT).show();
+                                coord1 = chk;
+                                eraseSub = recDataString.substring(0, endOfLineIndex + 1);
+                                int i = recDataString.indexOf(eraseSub);
+                                if (i != -1) {
+                                    try {
+                                        recDataString.delete(i, eraseSub.length());                    //clear all string data
+                                    } catch (StringIndexOutOfBoundsException ex) {
+                                        Toast.makeText(getBaseContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (coord2 == null) {
+                            if (endOfLineIndex > 0) {                                           // make sure there data before ~
+                                String chk = recDataString.substring(0, endOfLineIndex);
+//                                Toast.makeText(getBaseContext(),chk,Toast.LENGTH_SHORT).show();
+                                coord2 = chk;
+
+                                eraseSub = recDataString.substring(0, endOfLineIndex + 1);
+                                int i = recDataString.indexOf(eraseSub);
+                                if (i != -1) {
+                                    try {
+                                        recDataString.delete(i, eraseSub.length());                    //clear all string data
+                                    } catch (StringIndexOutOfBoundsException ex) {
+                                        Toast.makeText(getBaseContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+
+                                Points.add(Double.parseDouble(coord1));
+                                Points.add(Double.parseDouble(coord2));
+
+                                coord1 = null;
+                                coord2 = null;
+
+                                RefreshGraph();
+                            }
+                        }
+                    }
+                }
+            }
+        };
+    }
+
+    public void RefreshGraph() {
+        DataPoint addedData = new DataPoint(Points.get(graphPoints), Points.get(graphPoints+1));
+        series.appendData(addedData,true,10);
+        graph.addSeries(series);
+        graphPoints = graphPoints + 2;
     }
 
     @Override
