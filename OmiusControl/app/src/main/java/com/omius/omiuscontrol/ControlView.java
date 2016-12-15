@@ -42,6 +42,7 @@ public class ControlView extends AppCompatActivity {
     public String BtAddress = null;
     private ConnectedThread mConnectedThread = null;
     final int handlerState = 0;
+
     // UUID service - This is the type of Bluetooth device that the BT module is
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     Handler bluetoothIn;
