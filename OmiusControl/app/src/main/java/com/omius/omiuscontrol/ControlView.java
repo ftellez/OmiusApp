@@ -19,8 +19,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
@@ -71,6 +73,19 @@ public class ControlView extends AppCompatActivity {
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
 
         graph.addSeries(series);
+
+        ToggleButton toggle = (ToggleButton) findViewById(R.id.toggleButton);
+        toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // The toggle is enabled
+
+                } else {
+                    // The toggle is disabled
+
+                }
+            }
+        });
 
         bluetoothIn = new Handler() {
             public void handleMessage(android.os.Message msg) {
@@ -147,7 +162,7 @@ public class ControlView extends AppCompatActivity {
 
     public void RefreshGraph() {
         DataPoint addedData = new DataPoint(Points.get(graphPoints), Points.get(graphPoints+1));
-        series.appendData(addedData,true,10);
+        series.appendData(addedData,true,25);
         graph.addSeries(series);
         graphPoints = graphPoints + 2;
     }
@@ -178,6 +193,13 @@ public class ControlView extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         if (btSocket == null) {
+            ConnectDeviceBluetooth();
+        } else {
+            try {
+                btSocket.close();
+            } catch (IOException e4) {
+                Toast.makeText(getBaseContext(), "ERROR - Could not close Bluetooth socket", Toast.LENGTH_SHORT).show();
+            }
             ConnectDeviceBluetooth();
         }
     }
@@ -242,6 +264,7 @@ public class ControlView extends AppCompatActivity {
     public void ConnectSocket(BluetoothSocket BtSocket) {
         // Establish the connection.
 //          btSocketServer = BtSocket;
+
 
         try {
             Toast.makeText(getBaseContext(), "Conectando....", Toast.LENGTH_SHORT).show();
