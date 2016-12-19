@@ -37,6 +37,7 @@ import android.view.MenuItem;
 
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -160,14 +161,26 @@ public class ControlView extends AppCompatActivity {
         };
 
         // Camera
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+        Button cambtn = (Button)findViewById(R.id.CameraBtn);
 
-            if (getFromPref(this, ALLOW_KEY)) { showSettingsAlert(); }
-            else if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-                if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.CAMERA)) { showAlert(); }
-                else { ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.CAMERA}, MY_PERMISSIONS_REQUEST_CAMERA );}
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            if (getFromPref(this, ALLOW_KEY)) {
+                showSettingsAlert();
+            } else if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.CAMERA)) {
+                    showAlert();
+                } else {
+                    ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.CAMERA}, MY_PERMISSIONS_REQUEST_CAMERA );
+                }
             }
-        } else { openCamera(); }
+        } else {
+            cambtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    openCamera();
+                }
+            });
+        }
     }
 
     //---------------------------------------------------------
@@ -311,7 +324,7 @@ public class ControlView extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    
+
     @Override
     public void onResume() {
         super.onResume();

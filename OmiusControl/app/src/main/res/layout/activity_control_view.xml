@@ -43,6 +43,16 @@
         android:layout_marginBottom="20dp"
         tools:ignore="RtlHardcoded" />
 
-    <include layout="@layout/content_control_view" />
+    <include layout="@layout/content_control_view"
+        android:id="@+id/include" />
+
+    <Button
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CameraBtn"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|left"
+        android:layout_gravity="top|right" />
 
 </android.support.design.widget.CoordinatorLayout>
