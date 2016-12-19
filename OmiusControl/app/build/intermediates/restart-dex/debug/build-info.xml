@@ -5,7 +5,7 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="241110109950851"
+    timestamp="241692176122529"
     token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="241110109950851"
+        timestamp="241692176122529"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
