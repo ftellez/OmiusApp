@@ -5,79 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-<<<<<<< HEAD
-    timestamp="239208111332246"
-=======
-<<<<<<< HEAD
-    timestamp="239503327614142"
->>>>>>> toggleButton_implementation
+    timestamp="241110109950851"
     token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1123" />
-=======
-    timestamp="13286770803814"
-    token="-1138228740591952718" >
-
-    <task
-        name="javac"
         duration="0" />
->>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-        duration="529" />
+        duration="0" />
     <task
         name="verifier"
-        duration="417" />
-=======
-<<<<<<< HEAD
-        duration="424" />
-    <task
-        name="verifier"
-        duration="270" />
->>>>>>> toggleButton_implementation
+        duration="0" />
 
     <artifact
         location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-<<<<<<< HEAD
-        timestamp="239208111332246"
-        verifier="FULL_BUILD_REQUESTED" >
-=======
-        timestamp="239503327614142"
-=======
-        duration="0" />
-    <task
-        name="verifier"
-        duration="0" />
-
-    <build
-        timestamp="13197033455622"
-        verifier="CLASS_ADDED" >
->>>>>>> toggleButton_implementation
-        <artifact
-            location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="13273844097401"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="13286770803814" />
-    <build
-        timestamp="363855174936796"
->>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
+        timestamp="241110109950851"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"

@@ -34,14 +34,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-<<<<<<< HEAD
-import android.widget.Button;
-=======
-import android.widget.CompoundButton;
->>>>>>> toggleButton_implementation
 import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -72,11 +68,6 @@ public class ControlView extends AppCompatActivity {
     public String BtAddress = null;
     private ConnectedThread mConnectedThread = null;
     final int handlerState = 0;
-<<<<<<< HEAD
-=======
-    boolean handle = false;
-
->>>>>>> toggleButton_implementation
     // UUID service - This is the type of Bluetooth device that the BT module is
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     Handler bluetoothIn;
@@ -103,34 +94,10 @@ public class ControlView extends AppCompatActivity {
         graph = (GraphView) findViewById(R.id.graph);
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
         graph.addSeries(series);
-<<<<<<< HEAD
-=======
 
-        FloatingActionButton deviceQuery = (FloatingActionButton) findViewById(R.id.deviceQuery);
-        deviceQuery.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onResume();
-            }
-        });
-
-        ToggleButton toggle = (ToggleButton) findViewById(R.id.toggleButton);
-        toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    // The toggle is enabled
-                    handle = true;
-                } else {
-                    // The toggle is disabled
-                    handle = false;
-                }
-            }
-        });
-
->>>>>>> toggleButton_implementation
         bluetoothIn = new Handler() {
             public void handleMessage(android.os.Message msg) {
-                if (msg.what == handlerState && handle) {                                     //if message is what we want
+                if (msg.what == handlerState) {                                     //if message is what we want
                     String readMessage = (String) msg.obj;                                                                // msg.arg1 = bytes from connect thread
                     recDataString.append(readMessage);                                      //keep appending to string until ~
                     lineEnding = recDataString.indexOf("\r\n");

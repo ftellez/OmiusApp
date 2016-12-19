@@ -12,13 +12,6 @@
         "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-=======
->>>>>>> toggleButton_implementation
         "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
@@ -27,19 +20,16 @@
         "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-<<<<<<< HEAD
-=======
         "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_vector_test.xml"
     },
     {
->>>>>>> toggleButton_implementation
-        "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
