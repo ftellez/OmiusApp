@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 #Mon Dec 19 10:02:49 CST 2016
+=======
+<<<<<<< HEAD
+#Mon Dec 19 10:08:01 CST 2016
+=======
+#Thu Dec 15 18:53:08 CST 2016
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
+>>>>>>> toggleButton_implementation
