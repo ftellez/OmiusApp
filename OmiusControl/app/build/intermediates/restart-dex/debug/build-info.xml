@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="10022370411813"
-    token="-1138228740591952718"
+    timestamp="239503327614142"
+    token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="580" />
+        duration="1123" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="214" />
+        duration="424" />
     <task
         name="verifier"
-        duration="33" />
+        duration="270" />
 
     <artifact
-        location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="363855174936796"
+        timestamp="239503327614142"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

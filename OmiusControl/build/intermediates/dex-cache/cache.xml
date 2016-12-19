@@ -2,346 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_9f1ba8227757635d82a25bec0ef7e54348505deb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_a584d212b30daba410223d49ca8c5349193f0b2d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c4cc74499a62e154bc5d53c0b0c07da8c8de1f7">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d56037f7220231c3bcfda915c12d245f5af8733b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_a584d212b30daba410223d49ca8c5349193f0b2d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\libs\GraphView-4.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3626a38455159707e355da96a61e598fbbc049e9">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\GraphView-4.2.1_46f69d8a1c6c230e79857e42d2b0a857a1874331.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_11e3db37b8be30850870e60627f48f37d87e87fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-design-24.2.1_36585fe116762896b5f87ea1aa071bb9e3ce6dd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_a06b2768d17045091ea5b3f329cc332ea9b75761.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1b9ce135d28df90215f6f48e41f2727e32948480">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\instant-run_55de7f58f7c97f7cbe82d2a8adf1bafb20278296.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_92c8657b40bb0fd35fd495c62b5859f6fe273087.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_a06b2768d17045091ea5b3f329cc332ea9b75761.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_36585fe116762896b5f87ea1aa071bb9e3ce6dd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_9f1ba8227757635d82a25bec0ef7e54348505deb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_92c8657b40bb0fd35fd495c62b5859f6fe273087.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_626ac2d9d78c36939381e455780ad856e4c95448.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_11e3db37b8be30850870e60627f48f37d87e87fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_626ac2d9d78c36939381e455780ad856e4c95448.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_28d625ffbed9104d2cb295d082be6ab9345f9cef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_d461f76057c20392a41a86517a2a5dc629885fc8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_02211a5ff90e795df025c03c9faada903d66d92f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_02211a5ff90e795df025c03c9faada903d66d92f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_c6fee472c67d9df2c628964a409b07b4701a4499.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\libs\GraphView-4.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3626a38455159707e355da96a61e598fbbc049e9">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\GraphView-4.2.1_46f69d8a1c6c230e79857e42d2b0a857a1874331.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_191cda7459c7c2d7ebce66b5b0241dbe35b17ff6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_040b27b6d0e8c877cb276ca7087436dab64272af.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_f1146811710254d3bbc8baf8aeabf621a167c2fa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_2fabcfb342db02cad6995a890b02982bcd7e188d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_20fce9808d94e8c2fd26101ab5db824944aae2e8.jar" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_b5476b21d02e795b92a997041a0c307f926f09be\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d569e589da6b9b8cce38b2036d214967c702ab85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_ddd1eb7d4c95bd45abee7d2d9250d3c95bde8b06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_28d625ffbed9104d2cb295d082be6ab9345f9cef.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_201c6dc183bc291dda5691bc6a418b01952f45cc\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\support-annotations-24.2.1_c6fee472c67d9df2c628964a409b07b4701a4499.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_ebcb527c7fec30bfefaff2ea37c1ee26d2ecb982\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_20fce9808d94e8c2fd26101ab5db824944aae2e8.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_56cea81c2c255c70d140a60c04ed4879d97a6ae2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_191cda7459c7c2d7ebce66b5b0241dbe35b17ff6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2fabcfb342db02cad6995a890b02982bcd7e188d.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9689ac96c56b2d49fb6da21427afd960736338ee\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_040b27b6d0e8c877cb276ca7087436dab64272af.jar" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_599426dfb6d84d54c4f91d56b8982572f350c512\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_e0d291b3adf078f16d0f07b58c80291d1ea0dcd9.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e19058767c23e3419b9b196581cc9c6aa016ac1c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_cb886a471820e6d45c01ad3ed893c9c43df2eb47.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-24.2.1_d461f76057c20392a41a86517a2a5dc629885fc8.jar" />
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_50a2d6e02ccb5d693cf952e346018350beaabda3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e0d291b3adf078f16d0f07b58c80291d1ea0dcd9.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_28fd3c33b308d4fee3c166e44f70a4c508efa1ea\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_cb886a471820e6d45c01ad3ed893c9c43df2eb47.jar" />
+        sha1="61b141513c1e74f1fecece472be11874154c7037">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a815269f1e576aa63e8fe0e0a7c6378b9ac3e55b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6520b2b42f0a549138705fbdf5fd67e6f3cc733d">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9e4106f6739e943b268d903c6fb21395f7ae895f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cbba0be4a85bc6d35219bb9dcdf325a2bff6ed9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_c7143ce4e8ba3bc1e5f7b4f757d31b4f91324601\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_db73283bd52203f8297b54aa5cbd6b538bda0de0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\libs\GraphView-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3626a38455159707e355da96a61e598fbbc049e9">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\2\GraphView-4.2.1_c1bdd7aff95eaa29d1f883036ba9bfaf89848291\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5fd987eea3f0cfea440102512652a9e106aae20f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_60a0ad1e6fd46e78cc234463d01abfc9f89c2fea\classes.dex" />
     </item>
 
 </items>
