@@ -5,7 +5,7 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="28415745149010"
+    timestamp="239208111332246"
     token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -17,17 +17,17 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="529" />
     <task
         name="verifier"
-        duration="0" />
+        duration="417" />
 
     <artifact
         location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="28415745149010"
+        timestamp="239208111332246"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
