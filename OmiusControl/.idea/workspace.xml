@@ -9,7 +9,50 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="251e42d7-4e48-4c91-9f0d-6b29d0a9e9f5" name="Default" comment="" />
+=======
+    <list default="true" id="251e42d7-4e48-4c91-9f0d-6b29d0a9e9f5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/omius/omiuscontrol/ControlView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/omius/omiuscontrol/ControlView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/pQaTKpwWiDeQL+lGh4GcTWgnm6w=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/pQaTKpwWiDeQL+lGh4GcTWgnm6w=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/pQaTKpwWiDeQL+lGh4GcTWgnm6w=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/pQaTKpwWiDeQL+lGh4GcTWgnm6w=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/main_39a39a5dfd9557d04e82a57e43de9a7975d66a48.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/main_39a39a5dfd9557d04e82a57e43de9a7975d66a48.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/omius/omiuscontrol/ControlView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_control_view.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_control_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/omius/omiuscontrol/ControlView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/omius/omiuscontrol/ControlView.java" />
+    </list>
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
     <ignored path="OmiusControl.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +89,30 @@
       <file leaf-file-name="ControlView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/omius/omiuscontrol/ControlView.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1513">
               <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="102">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2132#2140#0" expanded="true" />
+                <element signature="e#2703#2847#0" expanded="true" />
+                <element signature="e#2846#2847#0" expanded="true" />
+                <element signature="e#2971#3368#0" expanded="true" />
+                <element signature="e#3367#3368#0" expanded="true" />
+                <element signature="e#3394#7867#0" expanded="true" />
+                <element signature="e#7866#7867#0" expanded="true" />
+                <element signature="e#9768#9776#0" expanded="true" />
+                <element signature="e#10566#10574#0" expanded="true" />
+                <element signature="e#10763#12057#0" expanded="true" />
+                <element signature="e#12056#12057#0" expanded="true" />
+                <element signature="e#13706#13707#0" expanded="false" />
+                <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
               </folding>
             </state>
           </provider>
@@ -78,6 +141,19 @@
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_control_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_control_view.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2378,7 +2454,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/omius/omiuscontrol/ControlView.java</url>
-          <line>91</line>
+          <line>100</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -2393,6 +2469,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
           </folding>
         </state>
       </provider>
@@ -2433,6 +2510,21 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2470,6 +2562,22 @@
           <caret line="104" column="72" selection-start-line="104" selection-start-column="72" selection-end-line="104" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2504,6 +2612,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2533,6 +2657,22 @@
           <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2622,6 +2762,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2689,6 +2845,22 @@
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
@@ -2787,10 +2959,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_control_view.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           <folding />
         </state>
       </provider>
@@ -2798,13 +2980,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_control_view.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+=======
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="37" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           <folding />
         </state>
       </provider>
@@ -2816,14 +3004,24 @@
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_control_view.xml">
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_control_view.xml">
       <provider editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="714">
           <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           <folding />
         </state>
       </provider>
@@ -2833,10 +3031,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/omius/omiuscontrol/ControlView.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1513">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="102">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2132#2140#0" expanded="true" />
+            <element signature="e#2703#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2971#3368#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3394#7867#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#9768#9776#0" expanded="true" />
+            <element signature="e#10566#10574#0" expanded="true" />
+            <element signature="e#10763#12057#0" expanded="true" />
+            <element signature="e#12056#12057#0" expanded="true" />
+            <element signature="e#13706#13707#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+>>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
           </folding>
         </state>
       </provider>
