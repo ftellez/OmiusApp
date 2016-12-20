@@ -5,63 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-<<<<<<< HEAD
-    timestamp="239503327614142"
+    timestamp="241956385708787"
     token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1123" />
-=======
-    timestamp="13286770803814"
-    token="-1138228740591952718" >
-
-    <task
-        name="javac"
-        duration="0" />
->>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
+        duration="1203" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-        duration="424" />
+        duration="832" />
     <task
         name="verifier"
-        duration="270" />
+        duration="145" />
 
     <artifact
         location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="239503327614142"
-=======
-        duration="0" />
-    <task
-        name="verifier"
-        duration="0" />
-
-    <build
-        timestamp="13197033455622"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="13273844097401"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="13286770803814" />
-    <build
-        timestamp="363855174936796"
->>>>>>> 186401a2fa4fc7776f0311bb145e465942398ced
+        timestamp="241956385708787"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
