@@ -22,6 +22,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
@@ -30,6 +34,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -57,9 +62,11 @@ public class ControlView extends AppCompatActivity {
     DataPoint[] dataBattery = new DataPoint[]{new DataPoint(0, 0)};
     LineGraphSeries<DataPoint> series = new LineGraphSeries<>(dataBattery);
 
+    List<Entry> entries = new ArrayList<Entry>();
+
     int graphPoints = 0;
 
-    public ArrayList<Double> Points = new ArrayList<Double>();
+    public ArrayList<Float> Points = new ArrayList<Float>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,10 +74,12 @@ public class ControlView extends AppCompatActivity {
         setContentView(R.layout.activity_control_view);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        graph = (GraphView) findViewById(R.id.graph);
+//        graph = (GraphView) findViewById(R.id.graph);
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
 
-        graph.addSeries(series);
+        final LineChart chart = (LineChart) findViewById(R.id.Temperature_chart);
+
+//        graph.addSeries(series);
 
         bluetoothIn = new Handler() {
             public void handleMessage(android.os.Message msg) {
@@ -130,13 +139,13 @@ public class ControlView extends AppCompatActivity {
                                     }
                                 }
 
-                                Points.add(Double.parseDouble(coord1));
-                                Points.add(Double.parseDouble(coord2));
+                                Points.add(Float.parseFloat(coord1));
+                                Points.add(Float.parseFloat(coord2));
 
                                 coord1 = null;
                                 coord2 = null;
 
-                                RefreshGraph();
+                                RefreshGraph(chart);
                             }
                         }
                     }
@@ -145,10 +154,17 @@ public class ControlView extends AppCompatActivity {
         };
     }
 
-    public void RefreshGraph() {
-        DataPoint addedData = new DataPoint(Points.get(graphPoints), Points.get(graphPoints+1));
-        series.appendData(addedData,true,10);
-        graph.addSeries(series);
+    public void RefreshGraph(LineChart chart) {
+//        DataPoint addedData = new DataPoint(Points.get(graphPoints), Points.get(graphPoints+1));
+//        series.appendData(addedData,true,10);
+//        graph.addSeries(series);
+//        graphPoints = graphPoints + 2;
+
+        entries.add(new Entry(Points.get(graphPoints),Points.get(graphPoints+1)));
+        LineDataSet dataset = new LineDataSet(entries,"Prueba");
+        LineData lineData = new LineData(dataset);
+        chart.setData(lineData);
+        chart.invalidate(); // refresh
         graphPoints = graphPoints + 2;
     }
 

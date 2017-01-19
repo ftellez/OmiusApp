@@ -11,9 +11,14 @@
     tools:context="com.omius.omiuscontrol.ControlViewFragment"
     tools:showIn="@layout/activity_control_view">
 
-    <com.jjoe64.graphview.GraphView
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/Temperature_chart"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
-        android:id="@+id/graph" />
+        android:layout_height="200dip" />
+
+    <!--<com.jjoe64.graphview.GraphView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dip"-->
+        <!--android:id="@+id/graph" />-->
 
 </RelativeLayout>

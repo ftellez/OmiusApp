@@ -633,6 +633,7 @@ int drawable design_ic_visibility 0x7f020054
 int drawable design_snackbar_background 0x7f020055
 int drawable navigation_empty_icon 0x7f020056
 int drawable notification_template_icon_bg 0x7f020057
+int id Temperature_chart 0x7f0c007c
 int id action0 0x7f0c007d
 int id action_bar 0x7f0c005e
 int id action_bar_activity_content 0x7f0c0000
@@ -693,7 +694,6 @@ int id fill_horizontal 0x7f0c0031
 int id fill_vertical 0x7f0c0027
 int id fixed 0x7f0c003b
 int id fragment 0x7f0c006f
-int id graph 0x7f0c007c
 int id home 0x7f0c0004
 int id homeAsUp 0x7f0c000f
 int id icon 0x7f0c0045

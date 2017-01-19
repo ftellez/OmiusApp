@@ -2584,6 +2584,7 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f020057;
     }
     public static final class id {
+        public static final int Temperature_chart=0x7f0c007c;
         public static final int action0=0x7f0c007d;
         public static final int action_bar=0x7f0c005e;
         public static final int action_bar_activity_content=0x7f0c0000;
@@ -2644,7 +2645,6 @@ containing a value of this type.
         public static final int fill_vertical=0x7f0c0027;
         public static final int fixed=0x7f0c003b;
         public static final int fragment=0x7f0c006f;
-        public static final int graph=0x7f0c007c;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000f;
         public static final int icon=0x7f0c0045;
