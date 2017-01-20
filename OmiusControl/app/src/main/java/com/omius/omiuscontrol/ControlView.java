@@ -1,3 +1,4 @@
+//This is the login screen
 package com.omius.omiuscontrol;
 
 import android.bluetooth.BluetoothAdapter;
