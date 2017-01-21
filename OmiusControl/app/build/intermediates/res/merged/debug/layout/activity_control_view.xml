@@ -25,6 +25,7 @@
 
     <include layout="@layout/content_control_view" />
 
+    <!--
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +41,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         tools:ignore="RtlHardcoded" />
-
+        -->
 
     <RelativeLayout
         android:padding="10dp"
@@ -83,11 +84,11 @@
                 android:id="@+id/txtname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Name"
+                android:hint="Enter your name"
                 android:inputType="text"
-                android:maxLines="1"
-                android:singleLine="true" />
+                android:maxLines="1" />
         </android.support.design.widget.TextInputLayout>
+
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilemail"
             android:layout_width="match_parent"
@@ -98,11 +99,11 @@
                 android:id="@+id/txtemail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Email"
+                android:hint="Enter your email address"
                 android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:singleLine="true" />
+                android:maxLines="1" />
         </android.support.design.widget.TextInputLayout>
+
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilmobileno"
             android:layout_width="match_parent"
@@ -113,10 +114,9 @@
                 android:id="@+id/txtmobileno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Mobile No."
+                android:hint="Enter your mobile number"
                 android:inputType="number"
-                android:maxLines="1"
-                android:singleLine="true" />
+                android:maxLines="1" />
         </android.support.design.widget.TextInputLayout>
 
         <Button

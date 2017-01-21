@@ -1,4 +1,4 @@
-#Fri Jan 20 18:08:39 CST 2017
+#Sat Jan 21 10:07:02 CST 2017
 base.0=C\:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e4106f6739e943b268d903c6fb21395f7ae895f
 renamed.1=classes.dex
 renamed.0=classes2.dex
