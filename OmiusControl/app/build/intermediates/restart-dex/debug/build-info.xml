@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="6883289616417"
-    token="-1138228740591952718"
+    timestamp="62050347219293"
+    token="-8737988648299679433"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -17,20 +17,20 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="29" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="6883289616417"
+        timestamp="62050347219293"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\jfert\Documents\Omius\OmiusControl\OmiusControl\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Usuario-PC\Dropbox\ITESM\Extracurricular\OMIUS\OmiusApp\OmiusApp\OmiusControl\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

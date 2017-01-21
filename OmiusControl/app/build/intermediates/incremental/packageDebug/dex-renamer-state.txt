@@ -1,4 +1,7 @@
-#Fri Dec 09 23:39:04 CST 2016
-base.0=C\:\\Users\\jfert\\Documents\\Omius\\OmiusControl\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\jfert\\Documents\\Omius\\OmiusControl\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Fri Jan 20 18:08:39 CST 2017
+base.0=C\:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e4106f6739e943b268d903c6fb21395f7ae895f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a815269f1e576aa63e8fe0e0a7c6378b9ac3e55b\\classes.dex
+base.1=C\:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a815269f1e576aa63e8fe0e0a7c6378b9ac3e55b
+file.0=C\:\\Users\\Usuario-PC\\Dropbox\\ITESM\\Extracurricular\\OMIUS\\OmiusApp\\OmiusApp\\OmiusControl\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e4106f6739e943b268d903c6fb21395f7ae895f\\classes.dex
